@@ -1,0 +1,322 @@
+/* Estrutura do site */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    background: #fff url(../img/fundo/1.png) repeat-x;
+}
+
+header {
+    width: 750px;
+    margin: 0 auto;
+
+}
+
+head .foto1{
+    width: 1000px;
+    height: 700px;
+    margin: 0 auto;
+}
+
+/* Topo da pagina */
+section {
+    height: 150px;
+    background-repeat: no-repeat;
+    background-position: right;
+    padding-top: 25px;
+    /* border: 1px solid red; */
+
+}
+
+.logo {
+    width: 180px;
+    height: 80px;
+    background-image: url(../img/Logo/5.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    text-indent: -3000px;
+}
+/* Barra de navegação */
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+
+}
+/* Topo ul */
+section ul {
+    margin-top: 20px;
+    background: #77a0d1;
+    float: left;
+}
+/* Topo ul li */
+section ul li {
+    float: left;
+}
+/* topo ul a */
+section ul a {
+    font-size: 0.9em;
+    display: block;
+    padding: 0.5em 1.5em;
+    line-height: 2.1em;
+    text-decoration: none;
+    color: #fff;
+    background-image: url(../img/divisor.png);
+    background-repeat: no-repeat;
+    background-position: left center;
+}
+/* topo */
+section ul .primeiro a {
+    background: none;
+}
+/* topo */
+section ul a:hover {
+    color: #1e1b69;
+}
+
+body.home nav a#home,
+body.linguagem nav a#linguagem,
+body.banco nav a#banco,
+body.tendencia nav a#tendencia,
+body.seguranca nav a#seguranca,
+body.quiz nav a#quiz {
+    color: #fff;
+    background: #1c189b;
+    cursor: text;
+}
+
+/* Inicio conteudo post de tres colunas*/
+#conteudo {
+    margin-top: 60px;
+    background: #f5f5f5;
+}
+
+/* 1-box */
+#primario {
+    width: 270px;
+    float: left;
+    margin: 0 0 20px 195px;
+}
+/* 2-box */
+#secundario {
+    width: 270px;
+    float: left;
+}
+/* 3-box */
+#lateral {
+    width: 185px;
+    float: left;
+    margin: 0 0 15px -750px;
+}
+
+#duas-colunas #lateral {
+    width: 180px;
+    height: 300px;
+    float: left;
+    margin: 0 0 20px -750px;
+}
+/* fim box 3 */
+
+/* Box 4 colunas fotos */
+#quatro-colunas #primario {
+    
+    float: left;
+    margin: 0 20px 80px 50px;
+    width: 250px;
+    height: 450px;
+}
+
+/* Box 4 colunas fotos */
+#quatro-colunas #secundario {
+    float: left;
+    margin: 50px 20px 80px 50px;
+    width: 250px;
+}
+
+
+/* Inicio box 1 (3 colunas) 1-box */
+#tres-colunas #primario {
+    width: 280px;  /* Modifica a largura das colunas obs: ototal de 750px e dividir por cada coluna e margens */
+    float: left;
+    margin: 0 0px 15px 180px; /* tem relação direta com as colunas tem de diminuir a ultima para almentar a largura width */
+}
+
+/* 2 colunas 1-box */
+#duas-colunas #primario {
+    width: 555px;
+    float: left;
+    margin: 0 0 20px 15px;
+}
+
+/* 2 colunas 2-box */
+#duas-colunas #secundario {
+    width: 555px;
+    float: left;
+    margin: 0 0 20px 15px;
+}
+
+/* 1 coluna 1-box */
+#uma-coluna #primario {
+    width: 400px;
+    float: left;
+    margin: 0 20px 10px 15px;
+
+}
+/* 2-box */
+#secundario {
+    width: 280px;
+    float: left;
+    margin: 0 0 15px 5px;
+}
+/* Caixa */
+.caixa {
+    margin: 15px;
+    padding: 5px;
+    background: #f3f3f3 url(../img/fundo-caixa.png);
+
+}
+
+h2 {
+    font-size: 1em;
+    background: #294c71;
+    color: #fff;
+    padding: 5px;
+}
+/* Conteudo da baixa lateral */
+.caixa-conteudo {
+    background: #fff;
+    padding: 5px;
+    margin-top: 5px;
+}
+
+.formatar {
+    text-align: justify;
+}
+
+/* Formatando Imagens */
+
+img.imagem-principal {
+    width: 98%;
+    border: 3px solid #dfdfdf;
+}
+
+img.imagem-secundaria {
+    width: 98%;
+    border: 3px solid #9c6c6c;
+}
+
+/* Formatando Cabeçalhos */
+h3 {
+    text-transform: uppercase;
+    display: inline;
+    font-size: 0.8em;
+    padding: 3px;
+}
+
+.destaque h3 {
+    background: #b10333;
+    color: #fff;
+}
+
+.entrevista h3 {
+    background: #de003e;
+    color: #fff;
+}
+
+/* Rodape */
+footer {
+    background: #294c71;
+    padding: 20px;
+    clear: both;
+}
+
+/* Formatação menu lateral */
+#lateral ul a {
+    font-size: 0.9em;
+    padding: 3px;
+    display: block;
+    line-height: 30px;
+    color #000;
+    text-decoration: none;
+    border-bottom: 1px solid #f3f3f3;
+}
+
+#lateral ul a:hover {
+    background: #f9f9f9 url(../img/marcador.png) no-repeat left center;
+    padding-left: 20px;
+    color: #a1a1a1;
+}
+
+/* formatando formulario */
+label {
+    display: block;
+    cursor: pointer;
+}
+
+input {
+    padding: 5px;
+    margin: 2px;
+    width: 125px;
+    font-size: 0.9em;
+    background-color: #fff;
+}
+
+input.submit {
+    width: 80px;
+    color: #fff;
+    background-color: #b10333;
+    border: 2px splid #870529;
+    padding: 5px;
+}
+/* Formatando lista de noticias */
+#lista-noticias li {
+    padding: 2px;
+    border-bottom: 1px solid #ccc;
+    height: 70px;  /* Altura da caixa li  */
+}
+
+#lista-noticias li a img {
+    float: left;
+    margin: 5px;
+}
+/* formatando o link */
+#lista-noticias li a {
+    text-decoration: none;    /* Retira a linha (Sumbliado) de baixo do texto em li */
+    color: black;
+}
+/* formatando o titulo h3 */
+#lista-noticias li a h3 {
+    font-size: 0.8em;
+    padding: 0;
+    color: #294c71;
+}
+/* formatando o Paragrafo */
+#lista-noticias li a p {
+    font-size: 0.7em;
+}
+
+/* formatando o hover */
+#lista-noticias li:hover {
+    background: #eee;
+    cursor: pointer;
+}
+
+
+#container-rodape {
+    background: #294c71;
+    padding: 20px;
+}
+
+
+/* Inicio Rodape */
+#rodape {
+    width: 750px;
+    margin: 0 auto;
+    color: #fff;
+}
+
+
+
