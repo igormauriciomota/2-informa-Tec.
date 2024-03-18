@@ -198,6 +198,10 @@ p {
     text-align: justify;
 }
 
+p li {
+    text-align: center;
+}
+
 /* Formatando Imagens */
 
 img.imagem-principal {
