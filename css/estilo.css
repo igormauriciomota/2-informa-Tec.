@@ -79,7 +79,7 @@ section ul a:hover {
 body.home nav a#home,
 body.linguagem nav a#linguagem,
 body.banco nav a#banco,
-body.tendencia nav a#tendencia,
+body.tendencias nav a#tendencias,
 body.seguranca nav a#seguranca,
 body.quiz nav a#quiz {
     color: #fff;
